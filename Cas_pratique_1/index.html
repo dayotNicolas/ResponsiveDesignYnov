@@ -3,150 +3,247 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="style.css" rel="stylesheet" type="text/css">
+        <!--<link href="style.css" rel="stylesheet" type="text/css">-->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body>
             <div class="container">
                 <!--NavBar-->
-                <div class="row">
-                    <div class="col-lg-2"> <!-- Logo -->
-
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <img src="./assets/logo.svg" alt="logo_entreprise">         
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Accommodations <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Discover</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Map</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link disabled" href="#">About</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link disabled" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link disabled" href="#">Shop</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
                     </div>
-                    <div class="col-lg-5"> <!-- cliquables navbar -->
-
-                    </div>
-                    <div class="col-lg-2"> <!-- barre de recherche -->
-
-                    </div>
-                </div>
+                </nav>
                 <!--Grande image en haut de page "Unique experience"-->
                 <div class="row">
                     <div class="col-lg-12">
-
+                        <img src="./assets/accommodations-post-robert-s-hill-getaway-teaser-bg-dbfd6056.webp" alt="image_maison_header">
+                        <p>ROBERT'S HILL GETAWAY</p>
+                        <span>A Unique Experience</span>
+                        <span id="span2">Under the Sky</span>
+                        <button class="btn btn-light">View House</button>
                     </div>
                 </div>
                 <!--titre latest homes-->
                 <div class="row">
-                    <div class="col-lg-12">
-
+                    <div class="col-lg-2">
+                        <span>Latest Homes</span>
+                    </div>
+                    <div class="col-lg-2">
+                        <span><a href="osef">View All</a></span>
                     </div>
                 </div>
                 <!--cards sous le titre Latest homes-->
                 <div class="row">
                     <div class="col-lg-5"> <!-- card 1 -->
-
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./assets/accommodations-post-holiday-house-husum-fb9519ee.webp" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-5"> <!-- card 2 -->
-
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./assets/accommodations-post-panorama-suites-a155d4cd.webp" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-2"> <!-- card 3 -->
-
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./assets/accommodations-post-villa-lorenzo-17c7f3e1.webp" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!--"What makes us special" + 4*logos et texte + image de droite-->
                 <div class="row">
                     <div class="col-lg-2"> <!-- titre "What makes us special" -->
-
+                        <span>WHAT MAKES US SPECIAL</span>
                     </div>
                     <div class="col-lg-5"> <!-- paragraphe en gras -->
-
+                        <p>We provide a network of exclusive, one-of-a-kind holiday homes to help you plan a safe, relaxing and unforgettable vacation</p>
                     </div>
                     <div class="col-lg-3"> <!-- logo + titre + paragraphe -->
-
+                        <img src="./assets/icon-handpicked-locations.svg" alt="logo ruban">
+                        <span>Handpicked locations</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <div class="col-lg-3"> <!-- logo + titre + paragraphe -->
-
+                        <img src="./assets/icon-exclusive-experiences.svg" alt="logo diamant">
+                        <span>Exclusive Experiences</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <div class="col-lg-3"> <!-- logo + titre + paragraphe -->
-
+                        <img src="./assets/icon-unique-design.svg" alt="logo règle">
+                        <span>Unique Design</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <div class="col-lg-3"> <!-- logo + titre + paragraphe -->
-
+                        <img src="./assets/icon-sustainable-architecture.svg" alt="logo feuille">
+                        <span>Sustainable architecture</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <div class="col-lg-4"> <!-- image de droite -->
-
+                        <img src="./assets/home-about-bg.svg" alt="image G fauteil">
                     </div>
                 </div>
                 <!--Cozy place + les 4 cards + image en background-->
                 <div class="row">
                     <div class="col-lg-4"> <!-- titre + paragraphe + bouton -->
-
+                        <span>Cozy Places</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <button>Discover more</button>
                     </div>
                     <div class="col-lg-4"> <!-- card1 -->
-
+                        <img src="./assets/accommodations-post-lykkelig-hytta-54055711.webp" alt="image femme dans son salon">
+                        <span>VESTERALEN</span>
+                        <span>Lykkelig Hytta</span>
                     </div>
                     <div class="col-lg-4"> <!-- card2 -->
-
+                        <img src="./assets/accommodations-post-cosy-holiday-cottage-f0d7c9cf.webp" alt="image cottage portail">
+                        <span>HIGHLANDS</span>
+                        <span>Cosy holiday cottage</span>
                     </div>
                     <div class="col-lg-4"> <!-- card3 -->
-
+                        <img src="./assets/accommodations-post-luxurious-lodge-near-rochester-e97cf432.webp" alt="image salon poil">
+                        <span>LONDON REGION</span>
+                        <span>Luxurious Lodge Near Rochester</span>
                     </div>
                     <div class="col-lg-4"> <!-- card4 -->
-
+                        <img src="./assets/accommodations-post-snug-apartment-with-fireplace-5eab1422.webp" alt="image salon">
+                        <span>LONDON REGION</span>
+                        <span>Snug Apartment With Fireplace</span>
                     </div>
                     <div class="col-lg-12"> <!-- image de fond -->
-
+                        <img src="./assets/accommodations-tag-cozy-places-edc8b71c.webp" alt="image de fond découpée">
                     </div>
                 </div>
                 <!--titre "get inspired"-->
                 <div class="row">
                     <div class="col-lg-12">
-
+                        <span>Get Inspired</span>
+                    </div>
+                    <div class="col-lg-2">
+                        <span><a href="osef">View All</a></span>
                     </div>
                 </div>
                 <!--image taille container - 2 "Exclusive Architecture"-->
                 <div class="row">
                     <div class="col-lg-11"> <!-- image de background + titre + bouton -->
-
+                        <img src="./assets/accommodations-tag-exclusive-architecture-intro-83518b23.webp" alt="image appartement luxueux">
+                        <span>Exclusive Architecture</span>
+                        <button>Discover</button>
                     </div>
                 </div>
                 <!--3 images + titre + bouton Discover-->
                 <div class="row">
                     <div class="col-lg-9"> <!-- image de card + titre + bouton -->
-
+                        <img src="./assets/accommodations-tag-family-vacation-intro-3b82265c.webp" alt="image enfant daim">
+                        <span>Family Vacation</span>
+                        <button>Discover</button>
                     </div>
                     <div class="col-lg-9"> <!-- image de card + titre + bouton -->
-
+                        <img src="./assets/accommodations-tag-near-the-beach-intro-22483e80.webp" alt="image escalier plage">
+                        <span>Near the Beach</span>
+                        <button>Discover</button>
                     </div>
                     <div class="col-lg-9"> <!-- image de card + titre + bouton -->
-
+                        <img src="./assets/accommodations-tag-winter-escapes-intro-4f727dc2.webp" alt="image chalet montagne">
+                        <span>Winter Escapes</span>
+                        <button>Discover</button>
                     </div>
                 </div>
                 <!--titre "More Inspiration"-->
                 <div class="row">
                     <div class="col-lg-11">
-
+                        <span>More Inspiration</span>
                     </div>
                 </div>
                 <!--tableau "cozy places" to "Winter Escapes"-->
                 <div class="row">
                     <div class="col-lg-11">
-
+                        <ul>
+                            <li>Cozy Places</li>
+                            <li>In the Woods</li>
+                            <li>Tiny Homes</li>
+                            <li>Exclusive Architecture</li>
+                            <li>Near the Beach</li>
+                            <li>Urban Chic</li>
+                            <li>Family Vacation</li>
+                            <li>Pets Welcome</li>
+                            <li>Winter Escapes</li>
+                            <li>In the Mountains</li>
+                        </ul>
                     </div>
                 </div>
                 <!--Encadré Get Listed + 2 boutons + image à droite-->
                 <div class="row">
                     <div class="col-lg-10">
-
+                        <span>Get listed today and become part of the most exclusive luxury vacation home network worldwide.</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <button>Contact Us</button>
+                        <button>Read the FAQ</button>
+                        <img src="./assets/cta-bg.svg" alt="image mozaique G">
                     </div>
                 </div>
                 <!--titre "Lastest Articles"-->
                 <div class="row">
                     <div class="col-lg-11">
-
+                        <div class="col-lg-2">
+                            <span>Latest Articles</span>
+                        </div>
+                        <div class="col-lg-2">
+                            <span><a href="osef">View All</a></span>
+                        </div>
                     </div>
                 </div>
                 <!--3 cards-->
                 <div class="row">
                     <div class="col-lg-9"> <!-- image de card + titre + texte gras + paragraphe -->
-
+                        <img src="./assets/blog-post-warm-breeze-and-the-scent-of-lavender-why-we-love-provence-e37f1490.webp" alt="image champ lavande">
+                        <span>INSPIRATION</span>
+                        <span>Warm Breeze and the Scent of Lavender - Why We Love Provence</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <div class="col-lg-9"> <!-- image de card + titre + texte gras + paragraphe -->
-
+                        <img src="./assets/blog-post-warm-breeze-and-the-scent-of-lavender-why-we-love-provence-e37f1490.webp" alt="image plongeon">
+                        <span>COMMUNITY STORIES</span>
+                        <span>The Art of Letting Go - How to Relax on Vacation</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <div class="col-lg-9"> <!-- image de card + titre + texte gras + paragraphe -->
-
+                        <img src="./assets/blog-post-warm-breeze-and-the-scent-of-lavender-why-we-love-provence-e37f1490.webp" alt="image champ lavande">
+                        <span>INSPIRATION</span>
+                        <span>Warm Breeze and the Scent of Lavender - Why We Love Provence</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
                 <!--bandeau "Sign up"-->
